@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Test 01">
+        <classes>
+            <class name="clarusway.tests.Day01_C03_DependsOn"></class>
+            <class name="clarusway.tests.Day01_C04_Enabled"></class>
+        </classes>
+    </test>
+
+    <test name="Test 02">
+        <classes>
+            <class name="clarusway.tests.Day01_C02_Priority"></class>
+        </classes>
+    </test>
+</suite>

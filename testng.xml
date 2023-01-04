@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Lenovo/IdeaProjects/CWTestNGSelenium">
+        <classes>
+            <class name="clarusway.tests.Day01_C01_TestNGAnnotations">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C02_Priority">
+                <methods>
+                    <include name="test02"/>
+                    <include name="test04"/>
+                    <include name="test01"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C03_DependsOn">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C04_Enable">
+                <methods>
+                    <include name="enabledTest"/>
+                    <include name="disabledTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C05_TimeOut">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="timedOutTest"/>
+                    <include name="timedOutTest2"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C06_Description">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="homePageTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C09_AssertionTypes">
+                <methods>
+                    <include name="hardAssertion"/>
+                    <include name="softAssertion"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day02_C03_ParametersExample">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day02_C04_TestNGParametersSeleniumExample">
+                <methods>
+                    <include name="parametersTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
