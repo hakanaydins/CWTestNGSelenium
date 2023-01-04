@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Test Suite">
+    <listeners>
+        <listener class-name="clarusway.tests.Day05_C02_ITestListener"></listener>
+    </listeners>
+    <test name="Listener Tests">
+
+        <classes>
+            <class name="clarusway.tests.Day05_C03_UseListener"></class>
+        </classes>
+
+    </test>
+
+</suite>
